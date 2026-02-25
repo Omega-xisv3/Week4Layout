@@ -48,21 +48,21 @@
   background-color:#7FFF94 ;
   padding: 10px;
 }
-.box div.header2 {
+.box div.header {
   grid-area: header;
   text-align: center;
 }
-.box div.nav2 {
+.box div.nav {
   grid-area: nav;
 }
-.box div.content2 {
+.box div.content {
   grid-area: content;
 }
 
-.box div.sidebar2 {
+.box div.sidebar {
   grid-area: sidebar;
 }
-.box div.footer2 {
+.box div.footer {
   grid-area: footer;
   text-align: center;  
 }
@@ -98,20 +98,20 @@ h2{
   background-color:#947FFF ;
   padding: 10px;
 }
-.dino div.header3 {
+.dino div.header {
   grid-area: header;
   text-align: center;
 }
-.dino div.nav3 {
+.dino div.nav {
   grid-area: nav;
 }
-.dino div.content3 {
+.dino div.content {
   grid-area: content;
 }
-.dino div.sidebar3 {
+.dino div.sidebar {
   grid-area: sidebar;
 }
-.dino div.footer3 {
+.dino div.footer {
   grid-area: footer;
   text-align: center;  
 }
