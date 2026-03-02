@@ -2,11 +2,11 @@
   display: grid;
   grid-template-areas:
     "header header header"
-    "nav content sidebar "
+    "nav content sidebar"
     "footer footer footer";
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 3fr 1fr;
   gap: 3px;
-  background-color: rgb(100, 60, 60);
+  background-color: #947FFF;
   padding: 5px;
 }
 .container div {
@@ -33,39 +33,6 @@
 }
 
 
-.box {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "nav content sidebar"
-    "footer footer footer";
-  grid-template-columns: 1fr 3fr;
-  gap: 3px;
-  background-color: blanchedalmond;
-  padding: 5px;
-}
-.box div {
-  background-color:#7FFF94 ;
-  padding: 10px;
-}
-.box div.header {
-  grid-area: header;
-  text-align: center;
-}
-.box div.nav {
-  grid-area: nav;
-}
-.box div.content {
-  grid-area: content;
-}
-
-.box div.sidebar {
-  grid-area: sidebar;
-}
-.box div.footer {
-  grid-area: footer;
-  text-align: center;  
-}
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -83,43 +50,13 @@ h2{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.dino {
-  display: grid;
-  grid-template-areas:
-    "header header header"
-    "nav content sidebar"
-    "footer footer footer";
-  grid-template-columns: 1fr 3fr;
-  gap: 3px;
-  background-color: rgb(112, 82, 104);
-  padding: 5px;
-}
-.dino div {
-  background-color:#947FFF ;
-  padding: 10px;
-}
-.dino div.header {
-  grid-area: header;
-  text-align: center;
-}
-.dino div.nav {
-  grid-area: nav;
-}
-.dino div.content {
-  grid-area: content;
-}
-.dino div.sidebar {
-  grid-area: sidebar;
-}
-.dino div.footer {
-  grid-area: footer;
-  text-align: center;  
-}
 
+/*body {
+  background-color: rgb(171, 215, 253);
+}*/
 
 body {
-  background-color: rgb(171, 215, 253);
+  background-color: #7FFF94;
 }
-
 /* I chose grid over flexbox because I want to use the gridbox template provided by the website so that i can get a feel of how they work. */
 
